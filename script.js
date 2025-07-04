@@ -1,1 +1,46 @@
-// JavaScript for clock, weather, slideshow, and calendar integration
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(#0e0e0e, #1a1a1a);
+  color: #f0f0f0;
+}
+
+.banner {
+  background-color: #1a1a1a;
+  color: #f04848;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  border-bottom: 2px solid #444;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.clock {
+  font-size: 3rem;
+  text-align: center;
+  grid-column: span 2;
+}
+
+.weather-box {
+  background: #222;
+  padding: 1rem;
+  border: 1px solid #555;
+}
+
+.slideshow iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+.calendar iframe {
+  width: 100%;
+  border: none;
+}
