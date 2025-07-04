@@ -1,0 +1,1 @@
+// JavaScript for clock, weather, slideshow, and calendar integration
